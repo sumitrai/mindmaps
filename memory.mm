@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Memory" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1683608125786"><hook NAME="MapStyle" background="#2e3440">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_nord_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -81,6 +81,9 @@
 <node TEXT="Linux APIs" ID="ID_447197648" CREATED="1683608022858" MODIFIED="1683608028699">
 <node TEXT="System V shared memory segment" ID="ID_187982888" CREATED="1683608028985" MODIFIED="1683608036191">
 <node TEXT="shmget" ID="ID_343523501" CREATED="1683608036378" MODIFIED="1683608038957"/>
+</node>
+<node TEXT="Posix shared memory object" ID="ID_512823528" CREATED="1692158122217" MODIFIED="1692158130695">
+<node TEXT="shm_open" ID="ID_460032289" CREATED="1692158131245" MODIFIED="1692158134812"/>
 </node>
 </node>
 </node>

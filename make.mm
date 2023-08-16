@@ -82,7 +82,7 @@
 <node TEXT="Rule that specify a specific target(s) and prerequisites." ID="ID_1120505548" CREATED="1683354600753" MODIFIED="1683361628162"/>
 </node>
 <node TEXT="Pattern Rules" POSITION="bottom_or_right" ID="ID_719768689" CREATED="1683354008262" MODIFIED="1683354010991">
-<node TEXT="%.o: %.c&#xa;    $(CC) -o %@ $&lt;" ID="ID_1454020570" CREATED="1683354386482" MODIFIED="1683354400603"/>
+<node TEXT="%.o: %.c&#xa;    $(CC) -o $@ $&lt;" ID="ID_1454020570" CREATED="1683354386482" MODIFIED="1692159969603"/>
 <node TEXT="Wildcard based, applies to targets that match the specified pattern." ID="ID_391459215" CREATED="1683354625524" MODIFIED="1683354641183"/>
 <node TEXT="Static Pattern Rules" ID="ID_1127089599" CREATED="1683354866595" MODIFIED="1683355755597" BACKGROUND_COLOR="#d08770">
 <font BOLD="true"/>

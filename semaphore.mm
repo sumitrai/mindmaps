@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Semaphore" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1683607265205"><hook NAME="MapStyle" background="#2e3440">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_nord_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -88,6 +88,18 @@
 <node TEXT="thread shared" ID="ID_1193156212" CREATED="1683607755057" MODIFIED="1683607758527"/>
 <node TEXT="process shared" ID="ID_521135967" CREATED="1683607759913" MODIFIED="1683607763636">
 <node TEXT="placed in a shared memory region" ID="ID_444455172" CREATED="1683607766615" MODIFIED="1683608213964" LINK="memory.mm"/>
+</node>
+</node>
+</node>
+<node TEXT="Properties of semaphore" POSITION="bottom_or_right" ID="ID_751286832" CREATED="1692157684094" MODIFIED="1692157696786">
+<node TEXT="integer whose values is never allowed to go below zero." ID="ID_1912920168" CREATED="1692157697557" MODIFIED="1692157714636"/>
+<node TEXT="Operations" ID="ID_1452445440" CREATED="1692157732596" MODIFIED="1692157739292">
+<node TEXT="sem_post" ID="ID_261815304" CREATED="1692157739820" MODIFIED="1692157747780">
+<node TEXT="increment by one" ID="ID_670444259" CREATED="1692157749048" MODIFIED="1692157751554"/>
+</node>
+<node TEXT="sem_wait" ID="ID_776886394" CREATED="1692157754478" MODIFIED="1692157761599">
+<node TEXT="decrement by one" ID="ID_887933336" CREATED="1692157761914" MODIFIED="1692157766197"/>
+<node TEXT="if semphore == 0 then this will block until the values becomes greater then zero i.e. other thread/process does sem_post." ID="ID_1374450827" CREATED="1692157775690" MODIFIED="1692157811779"/>
 </node>
 </node>
 </node>
